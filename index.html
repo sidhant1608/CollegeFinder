@@ -1,4 +1,28 @@
 <html>
-<h1>Your cPanel account has been configured.</h1>
-<p>Send questions or problems to engrit-help@illinois.edu</p>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title></title>
+	<link href="mystyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+<h1><span style="font-family:georgia,serif;">College Finder</span></h1>
+</center>
+
+
+<h2>
+<form action="cool.php" method="POST">Search University: <input id="Name" name="Name" type="text" /> <input type="submit" value="Submit" /></form>
+
+</h2>
+
+<h3>
+
+<form action="chill.php" method="POST"><input id="radio" name="radio" type="radio" value="hs_gpa_avg" />High School GPA <input id="radio" name="radio" type="radio" value="sat_avg" />Average SAT <input id="radio" name="radio" type="radio" value="act_avg" />Average ACT <input id="radio" name="radio" type="radio" value="tuition" />Tuition <input id="min" name="min" placeholder="Minimum Value" type="text" /> <input id="max" name="max" placeholder="Maximum Value" type="text" /> <input type="submit" value="Submit" name="button"/></form>
+
+<form action="graph.php" method="POST"><input id="radio" name="radio" type="radio" value="hs_gpa_avg" />High School GPA <input id="radio" name="radio" type="radio" value="sat_avg" />Average SAT <input id="radio" name="radio" type="radio" value="act_avg" />Average ACT <input id="radio" name="radio" type="radio" value="tuition" />Tuition <input id="min" name="min" placeholder="Minimum Value" type="text" /> <input id="max" name="max" placeholder="Maximum Value" type="text" /> <input type="submit" value ="Graph" name= "button"></form>
+</h3>
+
+<form action="add.html"><input type="submit" value="Add University!" /></form>
+
+<form action="match.html"><input type="submit" value="Match with a University!" /></form>
+</body>
 </html>
